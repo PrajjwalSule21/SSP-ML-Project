@@ -25,7 +25,7 @@ Use Machine Learning to make this solution as well with the help of Data Analysi
 To get started with Store Sales Prediction, follow these steps:
 
 ### Clone the repository: 
-``` git clone https://github.com/your-username/store-sales-prediction.git ```
+``` git clone https://github.com/PrajjwalSule21/SSP-ML-Project ```
 ### Install the required dependencies by running 
 ``` pip install -r requirements.txt ```
 ### Run the project and generate sales predictions using the command 
