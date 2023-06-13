@@ -1,0 +1,17 @@
+[2023-06-13 16:35:13,620] 14 root - INFO - Data Ingestion has started
+[2023-06-13 16:35:13,620] 25 root - INFO - Entered into the data ingestion method
+[2023-06-13 16:35:14,286] 29 root - INFO - Read the dataset as dataframe
+[2023-06-13 16:35:14,286] 32 root - INFO - Make a directory for training data
+[2023-06-13 16:35:14,478] 35 root - INFO - Save that dataframe into a csv file name as [data.csv] into the artifacts directory
+[2023-06-13 16:35:14,478] 37 root - INFO - Train Test Split initiated
+[2023-06-13 16:35:14,597] 41 root - INFO - Save the train data as a csv file into artifacts folder
+[2023-06-13 16:35:14,611] 44 root - INFO - Save the test data as csv file into artifacts folder
+[2023-06-13 16:35:14,611] 46 root - INFO - Ingestion of the data has been completed
+[2023-06-13 16:35:14,612] 16 root - INFO - Get the train and test data
+[2023-06-13 16:35:14,612] 19 root - INFO - Data transformation has started
+[2023-06-13 16:35:14,682] 148 root - INFO - Read train and test data completed
+[2023-06-13 16:35:14,682] 150 root - INFO - Apply column tranfromer on train and test data
+[2023-06-13 16:35:14,682] 26 root - INFO - Tranforming the Age_Outlet column
+[2023-06-13 16:35:14,688] 33 root - INFO - Tranforming the Item_Fat_Content column
+[2023-06-13 16:35:14,714] 153 root - INFO - Apply outlier removal on train and test data
+[2023-06-13 16:35:14,714] 50 root - INFO - Remove the outlier from Item_Visibility column

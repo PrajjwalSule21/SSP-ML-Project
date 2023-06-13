@@ -8,4 +8,3 @@ xgboost
 dill
 hydra-core
 flask
--e .

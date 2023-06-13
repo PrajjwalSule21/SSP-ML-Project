@@ -1,0 +1,20 @@
+[2023-06-13 17:00:40,819] 14 root - INFO - Data Ingestion has started
+[2023-06-13 17:00:40,819] 25 root - INFO - Entered into the data ingestion method
+[2023-06-13 17:00:40,994] 29 root - INFO - Read the dataset as dataframe
+[2023-06-13 17:00:40,997] 32 root - INFO - Make a directory for training data
+[2023-06-13 17:00:41,135] 35 root - INFO - Save that dataframe into a csv file name as [data.csv] into the artifacts directory
+[2023-06-13 17:00:41,135] 37 root - INFO - Train Test Split initiated
+[2023-06-13 17:00:41,279] 41 root - INFO - Save the train data as a csv file into artifacts folder
+[2023-06-13 17:00:41,292] 44 root - INFO - Save the test data as csv file into artifacts folder
+[2023-06-13 17:00:41,293] 46 root - INFO - Ingestion of the data has been completed
+[2023-06-13 17:00:41,294] 16 root - INFO - Get the train and test data
+[2023-06-13 17:00:41,294] 19 root - INFO - Data transformation has started
+[2023-06-13 17:00:41,338] 149 root - INFO - Read train and test data completed
+[2023-06-13 17:00:41,338] 151 root - INFO - Apply column tranfromer on train and test data
+[2023-06-13 17:00:41,338] 26 root - INFO - Tranforming the Age_Outlet column
+[2023-06-13 17:00:41,344] 33 root - INFO - Tranforming the Item_Fat_Content column
+[2023-06-13 17:00:41,376] 124 root - INFO - Categorical columns: ['Item_Fat_Content', 'Item_Type', 'Outlet_Location_Type', 'Outlet_Type', 'Outlet_Size']
+[2023-06-13 17:00:41,377] 125 root - INFO - Numerical columns: ['Item_Visibility', 'Item_MRP', 'Age_Outlet', 'Item_Weight']
+[2023-06-13 17:00:41,377] 136 root - INFO - Pipeline for numerical and categorical completed
+[2023-06-13 17:00:41,377] 159 root - INFO - Obtaining preprocessing object
+[2023-06-13 17:00:41,379] 169 root - INFO - Applying preprocessing object on training dataframe and testing dataframe.
