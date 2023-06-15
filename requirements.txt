@@ -1,4 +1,4 @@
-gunicorn
+gunicorn==19.7.1
 pandas
 numpy
 seaborn
@@ -9,4 +9,4 @@ xgboost
 dill
 hydra-core
 flask
--e .
+#-e .
